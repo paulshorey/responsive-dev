@@ -1,0 +1,4 @@
+$ next build
+info  - Linting and checking validity of types...
+warn  - TypeScript project references are not fully supported. Attempting to build in incremental mode.
+error - ESLint: Failed to load config "prettier" to extend from. Referenced from: /Users/user/srv/harmony/frontend/responsive-dev/.eslintrc.js
