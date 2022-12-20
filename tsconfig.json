@@ -12,24 +12,29 @@
     "pages/_document.backup"
   ],
   "exclude": [
+    "docs",
     "node_modules",
     "dist",
+    "umd",
+    "esm",
     "out",
+    "test",
     ".next",
     ".backup",
-    "public"
+    "public",
+    "storybook-static",
+    "**/*.test.ts",
+    "**/*.test.js",
+    "**/*.stories.tsx"
   ],
   "plugins": [
     {
       "name": "typescript-styled-plugin",
-      "tags": [
-        "styled",
-        "css",
-        "sty"
-      ]
+      "tags": ["styled", "css", "sty"]
     }
   ],
   "compilerOptions": {
+    "outDir": "esm",
     "jsxImportSource": "@emotion/react",
     "baseUrl": ".",
     "paths": {},
