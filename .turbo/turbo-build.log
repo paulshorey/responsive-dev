@@ -1,0 +1,25 @@
+$ next build
+info  - Linting and checking validity of types...
+warn  - TypeScript project references are not fully supported. Attempting to build in incremental mode.
+error - ESLint: Failed to load config "prettier" to extend from. Referenced from: /Users/user/www/harmony-working/apps/responsive-dev/.eslintrc.js
+info  - Creating an optimized production build...
+info  - Disabled SWC as replacement for Babel because of custom Babel configuration ".babelrc" https://nextjs.org/docs/messages/swc-disabled
+info  - Compiled successfully
+info  - Collecting page data...
+info  - Generating static pages (0/3)
+info  - Generating static pages (3/3)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ○ / (1435 ms)                            118 kB          220 kB
+├   /_app                                  0 B             102 kB
+└ ○ /404                                   6.53 kB         109 kB
++ First Load JS shared by all              103 kB
+  ├ chunks/framework-0bff4c72fef67389.js   42 kB
+  ├ chunks/main-8b3cd6be0d1d0f74.js        29.6 kB
+  ├ chunks/pages/_app-2cc1c8c4ecc512d7.js  28.6 kB
+  ├ chunks/webpack-3757c4fe96b8e057.js     1.82 kB
+  └ css/3553fcbf6d34d744.css               1.04 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
